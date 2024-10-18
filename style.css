@@ -1,0 +1,46 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.container{
+    display:flex;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+}
+/* .square{
+    height:30px;
+    width:30px;
+    margin:1em;
+    animation:loading 2s infinite;
+} use this when using the commented divs
+ in html file. */
+.square1{
+    height:30px;
+    width:30px;
+    background-color:red;
+    margin:1em;
+    animation:loading 2s infinite;
+}
+.square2{
+    height:30px;
+    width:30px;
+    background-color:orange;
+    margin:1em;
+    animation:loading 2s infinite;
+}
+.square3{
+    height:30px;
+    width:30px;
+    background-color:blue;
+    margin:1em;
+    animation:loading 2s infinite;
+}
+@keyframes loading{
+   from{
+    transform: rotate(-45deg);
+   }
+   to{
+    transform: rotate(45deg);
+   }
+}
